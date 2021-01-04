@@ -1,0 +1,29 @@
+{
+  "name": "1_ecommerce",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "\"# ecommerce\"",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gc2000/ecommerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gc2000/ecommerce/issues"
+  },
+  "homepage": "https://github.com/gc2000/ecommerce#readme"
+}
